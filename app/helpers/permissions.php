@@ -16,6 +16,5 @@ function module_permission()
         'url_edit' => 'Url Edit',
         'url_show' => 'Url Show',
         'url_delete' => 'Url Delete',
-        
     ];
 }

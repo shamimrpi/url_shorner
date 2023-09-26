@@ -11,8 +11,8 @@ class UserController extends Controller
 
     public function index(){
 
-        check_user_access('user_list');
-       
+        // check_user_access('user_list');
+      
         $model = [];
         $dataset = User::where('id', '!=', Auth::id())->whereNotIn('id', [1])->orderBy('id', 'ASC')->get();
         $model['dataset'] = $dataset;

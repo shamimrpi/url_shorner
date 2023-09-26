@@ -24,10 +24,14 @@
                 <a class="navbar-brand" href="{{ url('/') }}">
                     {{ __('Shortener System') }}
                 </a>
-
+                @if(Auth::check())
                 <a class="navbar-brand" href="{{ url('/url/create') }}">
                     {{ __('Create Url') }}
                 </a>
+                <a class="navbar-brand" href="{{ url('/user') }}">
+                    {{ __('Create Url') }}
+                </a>
+                @endif
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="{{ __('Toggle navigation') }}">
                     <span class="navbar-toggler-icon"></span>
                 </button>
