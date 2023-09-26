@@ -29,7 +29,7 @@
                     {{ __('Create Url') }}
                 </a>
                 <a class="navbar-brand" href="{{ url('/user') }}">
-                    {{ __('Create Url') }}
+                    {{ __('User List') }}
                 </a>
                 @endif
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="{{ __('Toggle navigation') }}">
